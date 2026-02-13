@@ -3,6 +3,7 @@ name: .Net building application
 on:
   push:
     branches: [ main ]
+  workflow_dispatch:
 
 jobs:
   build:
